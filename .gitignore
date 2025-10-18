@@ -484,6 +484,6 @@ $RECYCLE.BIN/
 *.swp
 
 social-app-cheetsheet.txt
-
+ng-cheetsheet.txt
 API/appsettings.json 
 API/social.db*
