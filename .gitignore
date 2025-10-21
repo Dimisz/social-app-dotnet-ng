@@ -487,3 +487,5 @@ social-app-cheetsheet.txt
 ng-cheetsheet.txt
 API/appsettings.json 
 API/social.db*
+client/ssl/localhost-key.pem
+client/ssl/localhost.pem
