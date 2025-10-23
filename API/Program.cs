@@ -19,6 +19,9 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 });
 builder.Services.AddCors();
 builder.Services.AddScoped<ITokenService, TokenService>();
+// add repository
+builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
   var tokenKey = builder.Configuration["TokenKey"] ?? throw new Exception("Token key not found - Program.cs");
